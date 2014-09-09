@@ -1,1 +1,213 @@
 /* ADD YOUR STYLES HERE */
+
+/* Question 6, Horizontal centering*/
+.center-elements {
+	text-align: center;
+	position: relative;
+	margin-top: 2em;
+}
+
+.center-elements img, p, ol {
+	margin: 0px 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*Question 7, Vertical centering*/
+
+.vert-container {
+	height: 300px;
+	/*adding a border so i can see that it's properly centered*/
+	border: 1px solid #000000; 
+	position: 
+
+}
+
+.horiz-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+.horiz-center p, .horiz-center img, .horizo-center ol {
+	display: block;
+	padding: 10px;
+}
+
+/*Question 8, horizontal list*/
+
+.horiz-menu li {
+	display: inline;
+	list-style-type: none;
+}
+
+/*Question 9, multiple sizes 'o buttons*/
+
+.buttons {
+	background: #ff9999;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 7px;
+	display: inline-block;
+	border: none;
+}
+
+.big {
+	padding: 15px 50px;
+	font-size: 1.2em;
+}
+
+.medium {
+	padding: 10px 25px;
+}
+
+.small {
+	padding: 5px;
+	font-size: .8em;
+}
+
+/*Question 10, Navigation menu with links that highlight on hover*/
+
+.nav-bar {
+	background: #ff9999;
+	display: inline-block;
+	border-radius: 7px;
+	padding: 15px 25px;
+}
+
+.nav-bar li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px;
+	
+	/*background: #ff9999;*/
+}
+
+.nav-bar a {
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 25px;
+}
+
+.nav-bar a:hover {
+	color: #000;
+}
+
+.nav-bar ul {
+	padding-left: 0;
+}
+
+/*Question 11, style a pagination control*/
+
+.paginator li {
+	list-style-type: none;
+	display: inline-block;
+}
+.paginator a {
+	vertical-align: super;
+	border-bottom: 2px solid #ff9999;
+	display: inline-block;
+	text-decoration: none;
+	color: #ff9999;
+	padding: 5px 5px;
+
+}
+
+.paginator span {
+	vertical-align: super;
+	border-bottom: 2px solid gray;
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	padding: 5px 5px;
+}
+
+a.noborder {
+	border-bottom: 0px;
+}
+
+
+/* Question 12, style a comment stream */
+
+.user-img {
+	float: left;
+	padding: 5px;
+	
+}
+
+.status-update {
+	margin-left: 100px;
+	min-height: 80px;
+	padding: 10px 0px;
+
+}
+
+.status-update time {
+	font-size: .8em;
+	color: gray;
+}
+
+.status-update p {
+	display: block;
+	min-height: 50px;
+}
+
+
+/* Question 13, tabbed content control */
+
+
+
+.tablist {
+	list-style-type: none;
+	display: inline-block;
+	
+}
+
+.tablist li {
+	float: left;
+	margin-right: 5px;
+
+}
+
+ul.tablist {
+	padding-left: 10px;
+}
+
+.tablist li a {
+	display: block;
+	padding: 0em 1em;
+	text-decoration: none;
+	border: 1px solid blue;
+	border-bottom: 0px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.tab-content {
+	border: 1px solid blue;
+	border-radius: 4px;
+	/*margin-top: -1px;*/
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
