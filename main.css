@@ -167,6 +167,7 @@ a.noborder {
 .tablist li {
 	float: left;
 	margin-right: 5px;
+	margin-bottom: -6px;
 
 }
 
@@ -176,12 +177,13 @@ ul.tablist {
 
 .tablist li a {
 	display: block;
-	padding: 0em 1em;
+	padding: 0.1em 1em;
 	text-decoration: none;
 	border: 1px solid blue;
 	border-bottom: 0px;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
+	color: blue;
 }
 
 .tab-content {
@@ -191,6 +193,10 @@ ul.tablist {
 	padding: 10px;
 }
 
+.activetab {
+	padding-bottom: 1px;
+	background: #fff;
+}
 
 
 
